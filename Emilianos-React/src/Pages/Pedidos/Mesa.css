@@ -1,0 +1,121 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.mesa-container {
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    /* Usar toda la altura disponible */
+    max-width: 1600px;
+    /* Aumentar el ancho máximo */
+    margin: 0 auto;
+    /* Centrar horizontalmente */
+    /* Fondo claro */
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    font-size: 28px;
+    /* Texto más grande */
+    color: #7b4a12;
+}
+
+.acciones {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-anadir {
+    background-color: #f4a261;
+    color: white;
+}
+
+.btn-generar-cuenta {
+    background-color: #f4e06d;
+    color: #5a4d02;
+}
+
+.pedidos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    /* Tarjetas más anchas */
+    gap: 30px;
+    /* Espaciado entre tarjetas */
+    width: 100vh;
+}
+
+.pedido {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.pedido:hover {
+    transform: scale(1.05);
+}
+
+.pedido-listo {
+    background-color: #a6f7a6;
+}
+
+.pedido-pendiente {
+    background-color: #f7c6a6;
+}
+
+.pedido-entregado {
+    background-color: #a6d5f7;
+}
+
+.pedido-imagen {
+    width: 120px;
+    /* Aumentar tamaño de imagen */
+    height: 120px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.pedido-detalle {
+    flex: 1;
+}
+
+.pedido-detalle h3 {
+    font-size: 1.8rem;
+    /* Texto más grande */
+    margin-bottom: 10px;
+}
+
+.btn-entregar {
+    background-color: #ff8c42;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "nombre": "Jose Herrera Segaline",
+    "nit": "19685465",
+    "razonSocial": "Emilianos",
+    "mesa": 1,
+    "tipoPago": "Efectivo",
+    "total": 98,
+    "fecha": "2024-11-22 15:48",
+    "detalles": [
+      { "descripcion": "Majadito Batido", "cantidad": 1, "subtotal": 10 },
+      { "descripcion": "Sopa de Maní", "cantidad": 3, "subtotal": 18 },
+      { "descripcion": "Keperi", "cantidad": 1, "subtotal": 20 },
+      { "descripcion": "Lechón al Horno", "cantidad": 2, "subtotal": 50 }
+    ]
+  },
+  {
+    "nombre": "Ana Morales",
+    "nit": "98765432",
+    "razonSocial": "Emilianos",
+    "mesa": 2,
+    "tipoPago": "Tarjeta",
+    "total": 150,
+    "fecha": "2024-11-22 13:30",
+    "detalles": [
+      { "descripcion": "Pique Macho", "cantidad": 2, "subtotal": 90 },
+      { "descripcion": "Silpancho", "cantidad": 2, "subtotal": 60 }
+    ]
+  },
+  {
+    "nombre": "Carlos Díaz",
+    "nit": "12312312",
+    "razonSocial": "Emilianos",
+    "mesa": 3,
+    "tipoPago": "QR",
+    "total": 210,
+    "fecha": "2024-11-21 20:15",
+    "detalles": [
+      { "descripcion": "Lomo Saltado", "cantidad": 2, "subtotal": 120 },
+      { "descripcion": "Empanada de Queso", "cantidad": 3, "subtotal": 30 },
+      { "descripcion": "Sopa de Maní", "cantidad": 2, "subtotal": 60 }
+    ]
+  },
+  {
+    "nombre": "Lucía Gómez",
+    "nit": "44556677",
+    "razonSocial": "Emilianos",
+    "mesa": 4,
+    "tipoPago": "Efectivo",
+    "total": 175,
+    "fecha": "2024-11-21 14:50",
+    "detalles": [
+      { "descripcion": "Chicharrón de Cerdo", "cantidad": 2, "subtotal": 80 },
+      { "descripcion": "Sopa de Maní", "cantidad": 3, "subtotal": 60 },
+      { "descripcion": "Mocochinchi", "cantidad": 2, "subtotal": 35 }
+    ]
+  },
+  {
+    "nombre": "Roberto Sánchez",
+    "nit": "77889900",
+    "razonSocial": "Emilianos",
+    "mesa": 5,
+    "tipoPago": "Tarjeta",
+    "total": 320,
+    "fecha": "2024-11-20 12:40",
+    "detalles": [
+      { "descripcion": "Pollo a la Brasa", "cantidad": 2, "subtotal": 120 },
+      { "descripcion": "Tortilla de Verduras", "cantidad": 2, "subtotal": 80 },
+      { "descripcion": "Ensalada Mixta", "cantidad": 3, "subtotal": 120 }
+    ]
+  }
+]

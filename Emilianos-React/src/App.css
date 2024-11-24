@@ -1,0 +1,105 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.AppHeader {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: rgb(207, 97, 28); /* Color de fondo naranja */
+  }
+
+.SideMenuAndPageContent{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(201, 197, 197, 0.678) ;
+
+}
+
+
+
+.SideMenu{
+    height: 100%;
+    
+}
+.SideMenuVertical{
+    height: 100%;
+    background-color: rgba(240, 192, 102, 0.863);
+}
+
+.PageContent {
+  margin: 0 auto; /* Centra horizontalmente el contenido */
+  padding-left: 20px; /* Espaciado interno para evitar que el contenido esté pegado al borde */
+  max-width: 1200px; /* Establece un ancho máximo para centrar correctamente */
+}
+
+.custom-table .ant-table-thead > tr > th {
+    background-color: #d06f29; /* Cambia el color de fondo del encabezado */
+    color: white; /* Cambia el color del texto */
+    text-align: center; /* Centra el texto */
+  }
+  
+  .custom-table .ant-table-tbody > tr > td {
+    background-color: #dca745c6; /* Cambia el color de fondo de las filas */
+    color: #333; /* Cambia el color del texto */
+  }
+  
+  .custom-table .ant-table-tbody > tr:hover > td {
+    background-color: #e0f7fa; /* Cambia el color de fondo al pasar el ratón */
+  }
+
+  /*Modal*/
+  .ant-modal-title {
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .ant-modal-body {
+    font-family: Arial, sans-serif;
+  }
+  
+ 
+  
+  th {
+    background-color: #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  td {
+    padding: 8px;
+  }
+  
+  
+  /* Aumentar el tamaño de las letras del encabezado */
+.custom-table .ant-table-thead > tr > th {
+  font-size: 25px; /* Tamaño de fuente del encabezado */
+  font-weight: bold; /* Negrita para resaltar */
+  text-align: center; /* Centrar texto */
+  background-color: #d06f29; /* Color de fondo */
+  color: white; /* Color del texto */
+}
+
+/* Aumentar el tamaño de las letras de las celdas del cuerpo */
+.custom-table .ant-table-tbody > tr > td {
+  font-size: 25px; /* Tamaño de fuente del cuerpo */
+  text-align: center; /* Centrar texto */
+  color: #333; /* Color del texto */
+}
+
+/* Ajustar el tamaño del texto de la paginación */
+.custom-table .ant-pagination-item {
+  font-size: 14px; /* Tamaño de fuente de los números de paginación */
+}
+
+.custom-table .ant-pagination-item-active {
+  font-weight: bold; /* Resalta la página activa */
+}
