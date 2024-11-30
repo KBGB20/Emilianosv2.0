@@ -1,0 +1,143 @@
+[
+    {
+        "id": 1,
+        "nombre": "Salteña",
+        "preciounitario": 2.5,
+        "descripcion": "Empanada jugosa rellena de carne, papa, huevo y especias.",
+        "stock": 100,
+        "disponible": true,
+        "cantidadPedidos": 120,
+        "urlImagen": "https://i.ytimg.com/vi/4oGJTHUA_cY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBADqhalw1cb2R8dz1erPYBiuzZWg",
+        "categoria": {
+          "idCategoria": 1,
+          "nombreCategoria": "Desayuno"
+        }
+    },
+    {
+        "id": 2,
+        "nombre": "Pique Macho",
+        "preciounitario": 8.0,
+        "descripcion": "Carne de res, salchicha, papas fritas, huevo y picante.",
+        "stock": 50,
+        "disponible": true,
+        "cantidadPedidos": 95,
+        "urlImagen": "https://cdn.bolivia.com/gastronomia/2012/12/11/pique-macho-3502.jpg",
+        "categoria": {
+          "idCategoria": 2,
+          "nombreCategoria": "Plato Principal"
+        }
+    },
+    {
+       "id": 3,
+        "nombre": "Silpancho",
+        "preciounitario": 7.5,
+        "descripcion": "Carne apanada, arroz, papas y ensalada de tomate y cebolla.",
+        "stock": 60,
+        "disponible": true,
+        "cantidadPedidos": 80,
+        "urlImagen": "https://cdn.bolivia.com/gastronomia/2018/01/25/silpancho-boliviano-3574.jpg",
+        "categoria": {
+          "idCategoria": 2,
+          "nombreCategoria": "Plato Principal"
+        }
+    },
+    {
+        "id": 4,
+        "nombre": "Majadito",
+        "preciounitario": 6.0,
+        "descripcion": "Arroz cocido con charque, huevo frito y plátano.",
+        "stock": 40,
+        "disponible": true,
+        "cantidadPedidos": 70,
+        "urlImagen": "https://cdn.bolivia.com/gastronomia/2015/01/26/majao-cruceno-3540.jpg",
+        "categoria": {
+          "idCategoria": 2,
+          "nombreCategoria": "Plato Principal"
+        }
+    },
+    {
+       "id": 5,
+        "nombre": "Anticucho",
+        "preciounitario": 3.0,
+        "descripcion": "Corazón de res a la parrilla, servido con papas y salsa picante.",
+        "stock": 80,
+        "disponible": true,
+        "cantidadPedidos": 65,
+        "urlImagen": "https://imgmedia.larepublica.pe/1200x630/larepublica/original/2023/08/15/64dbf29b39c2ea43553e4144.jpg",
+        "categoria": {
+          "idCategoria": 1,
+          "nombreCategoria": "Plato Principal"
+        }
+    },
+    {
+        "id": 6,
+        "nombre": "Fricase",
+        "preciounitario": 9.0,
+        "descripcion": "Cerdo en salsa picante con mote, típico de La Paz.",
+        "stock": 30,
+        "disponible": true,
+        "cantidadPedidos": 55,
+        "urlImagen": "https://estaticos-noticias.unitel.bo/binrepository/1121x512/49c0/1024d512/none/125450566/OYCP/fricas-paceo_1280054447_1140x520_UN158618_MG147248618.jpeg",
+        "categoria": {
+          "idCategoria": 2,
+          "nombreCategoria": "Plato Principal"
+        }
+    },
+    {
+        "id": 7,
+        "nombre": "Sopa de Maní",
+        "preciounitario": 5.0,
+        "descripcion": "Sopa espesa hecha de maní, papas, carne y verduras.",
+        "stock": 90,
+        "disponible": true,
+        "cantidadPedidos": 50,
+        "urlImagen": "https://i.ytimg.com/vi/vz6IWI7zZdc/maxresdefault.jpg",
+        "categoria": {
+          "idCategoria": 3,
+          "nombreCategoria": "Sopa"
+        }
+      },
+      {
+        "id": 8,
+        "nombre": "Charquekan",
+        "preciounitario": 7.0,
+        "descripcion": "Carne seca (charque) acompañada de mote, papa y huevo.",
+        "stock": 40,
+        "disponible": true,
+        "cantidadPedidos": 40,
+        "urlImagen": "https://placeresbolivia.com/wp-content/uploads/2021/09/charquekan-o-charque.jpg",
+        "categoria": {
+          "idCategoria": 2,
+          "nombreCategoria": "Plato Principal"
+        }
+      },
+      {
+        "id": 9,
+        "nombre": "Chairo",
+        "preciounitario": 4.5,
+        "descripcion": "Sopa tradicional con carne de cordero, chuño, papas y verduras.",
+        "stock": 70,
+        "disponible": true,
+        "cantidadPedidos": 35,
+        "urlImagen": "https://cdn.bolivia.com/gastronomia/2018/07/10/como-preparar-el-mejor-chairo-paceno-boliviano-3576.jpg",
+        "categoria": {
+          "idCategoria": 3,
+          "nombreCategoria": "Sopa"
+        }
+      },
+      {
+        "id": 10,
+        "nombre": "Api con Pastel",
+        "preciounitario": 3.5,
+        "descripcion": "Bebida caliente de maíz morado servida con pastel frito.",
+        "stock": 120,
+        "disponible": true,
+        "cantidadPedidos": 30,
+        "urlImagen": "https://media.todojujuy.com/p/1b4e6bf5aafc38e9f2f1aaadd00af170/adjuntos/227/imagenes/003/342/0003342861/1200x675/smart/api-pastel.png",
+        "categoria": {
+          "idCategoria": 4,
+          "nombreCategoria": "Desayuno"
+        }
+    }
+   
+]
