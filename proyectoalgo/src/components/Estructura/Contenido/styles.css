@@ -1,0 +1,58 @@
+/* Estilos para el arqueo de caja*/
+.arqueo-caja {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 1200px;
+    margin: auto;
+  }
+  
+  .arqueo-caja h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .arqueo-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .info-item label {
+    font-weight: bold;
+  }
+  
+  .info-item input {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150px;
+  }
+  
+  .info-item input:read-only {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+  }
+  
+  .info-item input[type="number"] {
+    text-align: right;
+  }
+
+  .grafica-container {
+    width: 100%;
+    max-width: 100%;  /* Limita el ancho máximo al tamaño de la pantalla */
+    height: 400px;  /* Ajusta la altura del gráfico */
+    overflow: hidden;  /* Evita que el gráfico se desborde */
+  }
+  
+  

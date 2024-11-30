@@ -1,0 +1,29 @@
+
+.sider {
+  background-color: #efe0cb;
+  padding: 20px;
+  font-size: 1rem;
+  border-radius: 0 0 8px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 220px; /* Ancho fijo del Sider */ 
+  height: 960px;  
+}
+
+
+.sider button {
+  background-color: transparent;
+  color: #512314;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 1rem;
+  
+}
+
+.sider button:hover {
+  background-color: #bf5a00;
+}
+

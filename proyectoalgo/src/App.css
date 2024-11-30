@@ -1,0 +1,39 @@
+.content{
+  max-width: 695px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+/* Diseño general con el Sider visible */
+.layout {
+  display: flex;
+  flex-direction: row; /* Coloca el Sider y el Main uno al lado del otro */
+  height: 100vh;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column; /* Estructura interna del Main */
+  flex-grow: 1; /* Ocupa todo el espacio disponible */
+  padding: 0; /* Añadir un poco de espacio alrededor */
+}
+
+
+.toggle-sider {
+  display: flex;  
+  background-color: transparent;
+  color: #512314;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 1rem;
+  z-index: 10; /* Asegura que el botón esté sobre el contenido */
+}
+
+.toggle-sider:hover {
+  background-color: #bf5a00;
+}

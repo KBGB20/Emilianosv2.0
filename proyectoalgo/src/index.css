@@ -1,0 +1,11 @@
+h2 {
+    font-size: 1.5rem; /* Tamaño de fuente más grande */
+    text-align: center; /* Centra el texto horizontalmente */
+    color: #512314; /* Color oscuro para mayor contraste */
+    margin: 20px 0; /* Espacio superior e inferior */
+    font-weight: bold; /* Resalta el texto */
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; 
+}
