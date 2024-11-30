@@ -1,0 +1,46 @@
+REQUERIMIENTOS
+
+Se asignara 1 usuario a 1 caja
+
+los roles que deben gestionarse son: Super Administrador, Administrador, Supervisor, Vendedor, Comprador, Invitado.
+
+Todo se trabajara con Estados: 1 - 2 (Activo - Inactivo)
+
+El Super Administrador y Administrador solo podra tener la Opcion de DELETE
+
+USUARIO
+El usuario podra gestionar las mesas (CRUD)
+
+El usuario podra gestionar las ordenes de cada mesa. Incluyendo el N° de Pedidos de las mesas, como tambien la disponibilidad de estas. (Disponible, Cuenta, Pedido, Reserva)
+
+
+
+ADMINISTRADOR
+Debe Gestionar los Usuarios con sus respectivos roles y permisos.
+
+Visualizar las ventas de la semana.
+
+
+CLIENTE
+El cliente debe escanear el QR de la mesa para poder hacer la solicitud del pedido.
+
+Podra escoger entre los platos del menu, incluyendo bebidas o postres.
+
+Podra generar la cuenta el cual le debera permitir la opcion de pago (QR, Tarjeta o Efectivo).
+
+SISTEMA
+
+El sistema debe validar las credenciales del usuario
+
+Se debera validar cada accion a la hora de hacer una orden, para evitar posibles equivocaciones de parte de la persona.
+
+El sistema debera validar automaticamente si un Plato tiene las cantidades necesarias para la preparacion de los platos, caso contrario, el plato no estara disponible hasta que cumplan con esta condicion
+
+Se debera acer un historial de todas las ventas realizadas por dia, incluyendo el usuario que ha realizado dicha venta.
+
+Se debera generar automaticamente un codigo interno en el que se tome en cuenta las Iniciales de la Marca, Categoria, Nombre y Descripcion de cada plato.
+
+Se debe mostrar los productos mas vendidos dependiendo del tipo de menu. Si hace frio, se mostrara los productos mas vendidos de ese Menu. Si hace calor, se mostrara los productos mas vendidos de ese Menu.
+
+Se debe obtener los datos del clima de la semana, con la cual se tomara en cuenta para poder armar los menus.
+

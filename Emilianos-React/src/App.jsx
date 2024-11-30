@@ -27,7 +27,14 @@ function App() {
         </>
       ) : (
         // Interfaz de login
-        <Login onLogin={handleLogin} />
+                // Sistema principal
+                <>
+                <AppHeader />
+                <div className="SideMenuAndPageContent">
+                  <SideMenu />
+                  <PageContent />
+                </div>
+              </>
       )}
     </div>
   );
